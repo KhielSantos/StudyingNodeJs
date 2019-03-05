@@ -19,5 +19,5 @@ console.log(hobbies.map(hobby => `Hobby: ${hobby}`));
 hobbies.push('Programming');
 console.log(hobbies);
 
-const copiedArray = hobbies.slice();
+const copiedArray = [hobbies];
 console.log(copiedArray);
