@@ -1,7 +1,7 @@
 const person = {
   name: 'Khiel',
   age: 29, 
-  greet: () => {
+  greet: function () {
     console.log(`Hi, I am ${this.name}`);
   }
 };
